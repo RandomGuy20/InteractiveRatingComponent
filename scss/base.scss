@@ -1,0 +1,52 @@
+
+
+
+// #region Variables
+
+$color-primary: hsl(25,97%,53%);
+$main-font-size:14px;
+$main-font-family:"Overpass",sans-serif;
+$main-font-weight:400;
+$large-font-weight:700;
+$nuetral-white:hsl(0,0%,100%);
+$nuetral-light-grey:hsl(217,12%,63%);
+$nuetral-medium-grey:hsl(216,12%,54%);
+$nuetral-dark-blue:hsl(213,19%,18%);
+$nuetral-very-dark-blue:hsl(216,12%,8%);
+
+
+:root
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+// #endregion
+
+
+body
+{
+    height: 100vh;
+    width: 1440px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: $nuetral-very-dark-blue;
+}
+
+
+// #region Global Styling and JS Changeable Styles
+
+//Orange BG
+// WHite BG
+
+
+
+
+
+//#endregion

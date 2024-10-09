@@ -1,0 +1,161 @@
+
+@use 'base';
+@use 'modal';
+
+
+@import url('https://fonts.googleapis.com/css2?family=Overpass:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+
+
+
+.dark-circle-background
+{
+    background-color: base.$nuetral-medium-grey;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.white-circle-background
+{
+    background-color: base.$nuetral-white;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+.orange-circle-background
+{
+    background-color: base.$color-primary;
+    border-radius: 50%;
+    padding: 15px;
+}
+
+
+
+
+.white-text
+{
+    color: base.$nuetral-white;
+}
+
+.large-text
+{
+    font-size: 32px;
+}
+
+.heavy-weight
+{
+    font-weight: base.$large-font-weight;
+}
+
+.dark-grey-text
+{
+    color: base.$nuetral-very-dark-blue;
+}
+
+
+
+
+
+
+// #region Media Query Desktop 1440px
+
+.rating-card
+{
+    height: 400px;
+    width: 400px;
+    background-color: base.$nuetral-dark-blue;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.card-component
+{
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    margin: 0; 
+    padding: 0; 
+
+    * 
+    {
+        margin: 0;  // Remove margin
+        padding: 0; // Remove padding
+    }
+
+
+
+    img
+    {
+        position: static;
+        top: 0;
+        left: 0;
+        height: 20px;
+        width: 20px;
+    }
+
+
+
+    input[type="radio"]
+    {
+        display: none;
+
+        &:hover
+        {
+            cursor: pointer;
+        }
+    }
+
+    label
+    {
+
+        
+
+
+
+
+        &:hover
+        {
+            cursor: pointer;
+        }
+    }
+
+    .btn
+    {
+        width: 100%;
+        background: base.$color-primary;
+        border: none;
+        border-radius: 30px;
+        height: 40px;
+        font-weight: bold;
+        font-size: base.$main-font-size;
+        letter-spacing: .1rem;
+        margin-top: 20px;
+    }
+
+    .btn:hover
+    {
+        cursor: pointer;
+    }
+
+}
+
+
+
+
+
+//#endregion
+
+
+
+
+// #region Media Query Mobile 375px
+
+
+
+// #endregion

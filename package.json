@@ -1,0 +1,14 @@
+{
+    "name": "interactive-rating-component",
+    "version": "1.0.0",
+    "description": "Front End mentor Challenge using SCSS",
+    "scripts": {
+      "sass": "sass --watch scss/styles.scss:css/styles.css"
+    },
+    "author": "Josh",
+    "license": "MIT",
+    "devDependencies": {
+      "sass": "^1.52.0"
+    }
+  }
+  
