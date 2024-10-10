@@ -32,7 +32,7 @@ $nuetral-very-dark-blue:hsl(216,12%,8%);
 body
 {
     height: 100vh;
-    width: 1440px;
+    min-width: 375px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -45,6 +45,41 @@ body
 //Orange BG
 // WHite BG
 
+.dark-circle-background
+{
+    background-color: $nuetral-very-dark-blue;
+}
+
+.grey-text
+{
+    color: $nuetral-medium-grey;
+    font-size: $main-font-size;
+}
+
+.active
+{
+    background-color: $color-primary;
+}
+
+.white-text
+{
+    color: $nuetral-white;
+}
+
+.large-text
+{
+    font-size: 32px;
+}
+
+.heavy-weight
+{
+    font-weight: $large-font-weight;
+}
+
+.dark-grey-text
+{
+    color: $nuetral-very-dark-blue;
+}
 
 
 

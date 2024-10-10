@@ -1,0 +1,46 @@
+:root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  min-width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.dark-circle-background {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.grey-text {
+  color: hsl(216, 12%, 54%);
+  font-size: 14px;
+}
+
+.active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.white-text {
+  color: hsl(0, 0%, 100%);
+}
+
+.large-text {
+  font-size: 32px;
+}
+
+.heavy-weight {
+  font-weight: 700;
+}
+
+.dark-grey-text {
+  color: hsl(216, 12%, 8%);
+}/*# sourceMappingURL=base.css.map */

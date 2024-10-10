@@ -1,7 +1,53 @@
 
-
+@use 'base' as base;
 
 .modal-card
 {
+    height: 80%;
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+
     display: none;
+
+    p
+    {
+        text-align: center;
+    }
+
+
+    *
+    {
+        margin:0;
+        padding:0;
+    }
+
+
+    img
+    {
+        width: 30%;
+    }
+
+    .selected-value
+    {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 200px;
+        height:50px;
+        background-color: base.$nuetral-very-dark-blue; 
+        color:base.$color-primary;
+        border-radius: 30px;
+    }
+
+    .rating-amount
+    {
+        color:base.$color-primary;
+    }
+
+
+    //display: none;
 }

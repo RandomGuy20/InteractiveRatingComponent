@@ -5,7 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="./css/styles.css">
+  <link rel="stylesheet" href="./scss/styles.css">
+  <link rel="stylesheet" href="./scss/base.css">
+  <script src="./app/app.js" defer async></script>
   <title>Frontend Mentor | Interactive rating component</title>
 
   <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
@@ -30,20 +32,11 @@
       </p>
   
       <div class="rating">
-        <input type="radio" name="radio-rating-1" id="radio-rating-1" >
-        <label for="radio-rating-1" class="dark-circle-background grey-text">1</label>
-  
-        <input type="radio" name="radio-rating-2" id="radio-rating-2">
-        <label for="radio-rating-2" class="dark-circle-background grey-text">2</label>
-  
-        <input type="radio" name="radio-rating-3" id="radio-rating-3">
-        <label for="radio-rating-3" class="dark-circle-background grey-text">3</label>
-  
-        <input type="radio" name="radio-rating-4" id="radio-rating-4">
-        <label for="radio-rating-4" class="dark-circle-background grey-text">4</label>
-  
-        <input type="radio" name="radio-rating-5" id="radio-rating-5">
-        <label for="radio-rating-5" class="dark-circle-background grey-text">5</label>
+        <buton class="rating-button dark-circle-background grey-text">1</buton>
+        <buton class="rating-button dark-circle-background grey-text">2</buton>
+        <buton class="rating-button dark-circle-background grey-text">3</buton>
+        <buton class="rating-button dark-circle-background grey-text">4</buton>
+        <buton class="rating-button dark-circle-background grey-text">5</buton>
       </div>
   
       <button class="btn dark-grey-text">Submit</button>
@@ -53,7 +46,7 @@
 
     <img src="./images/illustration-thank-you.svg" alt="">
     <p class="selected-value">
-      You selected <span class="rating-amount"></span> out of 5
+      You selected&nbsp;<span class="rating-amount"> 3 </span>&nbsp;out of 5
     </p>
 
     <p class="white-text large-text heavy-weight">

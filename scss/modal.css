@@ -1,0 +1,80 @@
+:root {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  min-width: 375px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: hsl(216, 12%, 8%);
+}
+
+.dark-circle-background {
+  background-color: hsl(216, 12%, 8%);
+}
+
+.grey-text {
+  color: hsl(216, 12%, 54%);
+  font-size: 14px;
+}
+
+.active {
+  background-color: hsl(25, 97%, 53%);
+}
+
+.white-text {
+  color: hsl(0, 0%, 100%);
+}
+
+.large-text {
+  font-size: 32px;
+}
+
+.heavy-weight {
+  font-weight: 700;
+}
+
+.dark-grey-text {
+  color: hsl(216, 12%, 8%);
+}
+
+.modal-card {
+  height: 80%;
+  width: 80%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  display: none;
+}
+.modal-card p {
+  text-align: center;
+}
+.modal-card * {
+  margin: 0;
+  padding: 0;
+}
+.modal-card img {
+  width: 30%;
+}
+.modal-card .selected-value {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: 50px;
+  background-color: hsl(216, 12%, 8%);
+  color: hsl(25, 97%, 53%);
+  border-radius: 30px;
+}
+.modal-card .rating-amount {
+  color: hsl(25, 97%, 53%);
+}/*# sourceMappingURL=modal.css.map */
